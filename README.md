@@ -1,7 +1,5 @@
 # Docker Nedir ve Nasıl Kullanılır? Python (FastAPI) ile Docker Örneği
 
-[video linki](https://www.youtube.com/watch?v=ISdxKNCftKs)
-
 ![](docker.png)
 
 **Dockerfile:** Adımları tek tek yazacağımız *dosya*. 
