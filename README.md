@@ -23,6 +23,22 @@ Her bir örnek klasöründe, ilgili uygulamayı Docker ile nasıl build ve run e
 
 ![Docker](docker.png)
 
+## Container Sunucu Mudur?
+
+Hayır, container bir **sunucu** değildir ama onun üzerinde bir uygulama çalıştırabilirsiniz. Aradaki farkı şöyle netleştirebiliriz:
+
+* **Container:** İzole edilmiş, hafif bir çalışma ortamıdır. İçinde işletim sistemi çekirdeğini paylaşır ama kendi dosya sistemi, kütüphaneleri ve bağımlılıkları vardır. Yani uygulamanız burada çalışır, ama container kendisi fiziksel bir sunucu değildir.
+* **Sunucu (Server):** Fiziksel ya da sanal bir makineyi ifade eder. Üzerinde bir işletim sistemi çalışır ve container’ları barındırabilir.
+
+Özetle:
+
+* **Container**, uygulamanın çalıştığı izole, hafif bir ortamdır; kendi dosya sistemi ve bağımlılıkları vardır ama fiziksel bir makine değildir.
+* **Sunucu**, fiziksel veya sanal bir makinedir; üzerinde işletim sistemi çalışır ve container’ları barındırabilir.
+* **Image → Container → Çalışan uygulama** zinciri ile düşünülebilir.
+* Container, sunucunun kaynaklarını kullanır ve geçici bir ortam sağlar; kalıcı veri için volume gerekir.
+
+Yani container, **sunucu üzerinde çalışan küçük bir sanal çalışma ortamıdır**, kendisi ayrı bir sunucu değildir.
+
 ## Kaynaklar
 
 - [📺Kurs Video Linki](https://www.youtube.com/watch?v=ISdxKNCftKs)
