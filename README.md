@@ -39,6 +39,21 @@ Hayır, container bir **sunucu** değildir ama onun üzerinde bir uygulama çal�
 
 Yani container, **sunucu üzerinde çalışan küçük bir sanal çalışma ortamıdır**, kendisi ayrı bir sunucu değildir.
 
+## Docker’ın Öne Çıkan Avantajları Neler?
+
+⭐ **Taşınabilirlik** → Docker konteynerleri, “bir kez paketle, her yerde çalıştır” mantığıyla tüm işletim sistemlerinde (Linux, Windows, macOS) aynı şekilde çalışır.
+
+⭐ **Versiyonlama** → İmajların farklı sürümleri tutulabilir, böylece geri dönüş (rollback) kolaydır.
+
+⭐ **Kaynak yönetimi** → Bellek (memory), CPU, disk gibi kaynaklar kolayca sınırlanabilir veya ölçeklendirilebilir.
+
+* **Hızlı kurulum** → Uygulamalar ve bağımlılıkları tek bir imajda tutulduğu için “çalışmıyor” sorunlarını (dependency hell) büyük ölçüde ortadan kaldırır.
+* **Hafiflik** → Sanal makinelere göre daha az kaynak tüketir; çünkü host işletim sistemi çekirdeğini paylaşır.
+* **İzolasyon** → Her uygulama kendi konteynerinde bağımsız çalıştığı için güvenlik ve kararlılık artar.
+* **Otomasyon ve CI/CD entegrasyonu** → GitHub Actions, GitLab CI, Jenkins vb. sistemlerle kolay entegre olur; test, build ve deploy süreçlerini hızlandırır.
+* **Kolay paylaşım** → Docker Hub ve özel registry’ler sayesinde imajlar hızlıca paylaşılabilir.
+* **Mikroservis uyumluluğu** → Uygulamaları küçük, yönetilebilir parçalara bölerek dağıtık sistemler geliştirmeyi kolaylaştırır.
+
 ## Kaynaklar
 
 - [📺Kurs Video Linki](https://www.youtube.com/watch?v=ISdxKNCftKs)
